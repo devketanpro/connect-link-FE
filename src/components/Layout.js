@@ -64,7 +64,7 @@ const Layout = () => {
                             color="inherit"
                             aria-label="chat"
                             style={useStyles.iconButton}
-                            onClick={() => navigate('/chat')}
+                            onClick={() => navigate('/')}
                         >
                             <Chat />
                         </IconButton>

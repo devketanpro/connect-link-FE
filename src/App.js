@@ -6,6 +6,7 @@ import Login from './components/Login';
 import Register from './components/Register';
 import Profiles from './components/Profile';
 import UserProfile from './components/UserProfile';
+import MessageRequests from './components/MessageReq';
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
                     <Route path="/register" element={<Register />} />
                     <Route path="/profiles" element={<Profiles token={token} />} />
                     <Route path="/profile/:userId" element={<UserProfile />} />
+                    <Route path="/requests" element={<MessageRequests />} />
                 </Route>
             </Routes>
         </Router>
