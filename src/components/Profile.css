@@ -1,0 +1,36 @@
+.profile-container {
+    padding: 20px;
+}
+
+.profile-card {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    /* Example background color */
+    border: 1px solid #ccc;
+    /* Example border */
+    border-radius: 8px;
+    /* Example border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Example box shadow */
+
+}
+
+.profile-avatar {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.profile-username {
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: #f0f0f0;
+    padding: 5px;
+}
+
+.send-message-button {
+    margin-top: 10px;
+    background-color: darkcyan;
+}
