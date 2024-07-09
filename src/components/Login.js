@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import './Login.css'; // Import the CSS file
+import './Login.css';
 import { useNavigate, Link } from 'react-router-dom';
 import API_BASE_URL from '../config';
 
@@ -11,7 +11,7 @@ const Login = () => {
     const navigate = useNavigate();
 
     const handleSubmit = async (event) => {
-        event.preventDefault(); // Prevent default form submission
+        event.preventDefault();
         try {
             const response = await axios.post(`${API_BASE_URL}api/auth/login/`, {
                 username,
@@ -20,13 +20,13 @@ const Login = () => {
             if (response.status === 200) {
                 localStorage.setItem('token', response.data.access);
                 localStorage.setItem('user_data', JSON.stringify(response.data.user));
-                navigate('/profiles'); // Redirect to profiles page
-                setError(''); // Clear any previous errors on success
+                navigate('/profiles');
+                setError('');
             }
         } catch (error) {
             console.error('Error logging in:', error);
             if (error.response) {
-                setError('Invalid username or password.'); // Set error message for display
+                setError('Invalid username or password.');
             } else {
                 setError('An error occurred. Please try again.');
             }

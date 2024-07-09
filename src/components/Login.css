@@ -21,11 +21,11 @@
     border-radius: 3px;
     cursor: pointer;
     font-size: 16px;
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    transition: background-color 0.3s ease;
 }
 
 .login-container input[type="submit"]:hover {
-    background-color: #45a049; /* Darker shade when hovered */
+    background-color: #45a049;
 }
 
 .login-container .error-message {
@@ -33,7 +33,6 @@
     margin-top: 10px;
 }
 
-/* Optional: Styles for other elements like links or additional information */
 .login-container p {
     margin-top: 10px;
     font-size: 14px;
@@ -120,4 +119,3 @@
 .register-link:hover {
     text-decoration: underline;
 }
-

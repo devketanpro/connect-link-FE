@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import './Register.css'; // Import the CSS file
+import './Register.css';
 import { useNavigate, Link } from 'react-router-dom';
 import API_BASE_URL from '../config';
 
@@ -20,7 +20,6 @@ const Register = () => {
                 email,
             });
             navigate('/login');
-            console.log('Registration successful:', response.data);
             setError('');
         } catch (error) {
             console.error('Error registering:', error.response.data);

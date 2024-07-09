@@ -40,7 +40,7 @@ const Layout = () => {
                             color="inherit"
                             aria-label="home"
                             style={useStyles.iconButton}
-                            onClick={() => navigate('/')} // Navigate to home path
+                            onClick={() => navigate('/')}
                         >
                             <Home />
                         </IconButton>
