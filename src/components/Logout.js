@@ -7,6 +7,8 @@ import {
     DialogContent,
     DialogTitle,
 } from '@mui/material';
+import './Logout.css';
+
 
 const Logout = () => {
     const [open, setOpen] = useState(false);

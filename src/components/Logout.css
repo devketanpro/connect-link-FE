@@ -1,0 +1,25 @@
+.appBar {
+    background-color: #1976d2; /* Example background color */
+}
+
+.user-profile-card {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f0f0f0; /* Example background color */
+    border: 1px solid #ccc; /* Example border */
+    border-radius: 8px; /* Example border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Example box shadow */
+}
+
+.user-profile-card h5 {
+    margin-bottom: 20px;
+    font-size: 1.5rem; /* Example font size */
+}
+
+.user-profile-card .logout-button {
+    margin-top: 20px;
+}
+
+/* Add more styles as needed */
+
